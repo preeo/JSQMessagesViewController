@@ -98,5 +98,4 @@
  */
 + (UIImage *)jsq_defaultEditingInactiveImage;
 
->>>>>>> Stashed changes
 @end

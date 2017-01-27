@@ -72,13 +72,8 @@
     
     self.showLoadEarlierMessagesHeader = YES;
     
-<<<<<<< Updated upstream
-    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithImage:[UIImage jsq_defaultTypingIndicatorImage]
-                                                                              style:UIBarButtonItemStyleBordered
-=======
     UIBarButtonItem *receiveItem = [[UIBarButtonItem alloc] initWithImage:[UIImage jsq_defaultTypingIndicatorImage]
                                                                              style:UIBarButtonItemStylePlain
->>>>>>> Stashed changes
                                                                              target:self
                                                                              action:@selector(receiveMessagePressed:)];
 
