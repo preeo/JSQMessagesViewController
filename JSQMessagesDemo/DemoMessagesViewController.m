@@ -18,9 +18,7 @@
 
 #import "DemoMessagesViewController.h"
 
-#import "JSQMessagesViewAccessoryButtonDelegate.h"
-
-@interface DemoMessagesViewController () <JSQMessagesViewAccessoryButtonDelegate>
+@interface DemoMessagesViewController ()
 
 @property (strong, nonatomic) NSMutableArray<JSQMessage *> *selectedMessages;
 

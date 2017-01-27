@@ -199,16 +199,6 @@ forSupplementaryViewOfKind:kJSQCollectionElementKindEditOverlay
                        withSender:sender];
 }
 
-- (void)messagesCollectionViewCellDidTapAccessoryButton:(JSQMessagesCollectionViewCell *)cell
-{
-    NSIndexPath *indexPath = [self indexPathForCell:cell];
-    if (indexPath == nil) {
-        return;
-    }
-
-    [self.accessoryDelegate messageView:self didTapAccessoryButtonAtIndexPath:indexPath];
-}
-
 #pragma mark - Editing overlay view delegate
 
 - (void)editOverlayView:(JSQMessagesEditCollectionOverlayView *)overlayView activated:(BOOL)activated

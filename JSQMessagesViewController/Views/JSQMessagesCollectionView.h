@@ -47,12 +47,6 @@
 @property (weak, nonatomic, nullable) id<JSQMessagesCollectionViewDelegateFlowLayout, JSQMessagesEditButtonDelegate> delegate;
 
 /**
- *  The object that handles accessory actions for the collection view.
- *  It must adopt the `JSQMessagesViewAccessoryButtonDelegate` protocol.
- */
-@property (weak, nonatomic, nullable) id<JSQMessagesViewAccessoryButtonDelegate> accessoryDelegate;
-
-/**
  *  The layout used to organize the collection view’s items.
  */
 @property (strong, nonatomic) JSQMessagesCollectionViewFlowLayout *collectionViewLayout;
