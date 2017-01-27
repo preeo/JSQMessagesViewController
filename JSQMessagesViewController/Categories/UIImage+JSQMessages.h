@@ -81,4 +81,22 @@
  */
 + (UIImage *)jsq_defaultPauseImage;
 
+/**
+ *  @return The standard share icon image.
+ *
+ *  @discussion This is the default icon for the message accessory button.
+ */
++ (UIImage *)jsq_shareActionImage;
+
+/**
+ *  @return The default edit mode active icon image.
+ */
++ (UIImage *)jsq_defaultEditingActiveImage;
+
+/**
+ *  @return The default edit mode inactive icon image.
+ */
++ (UIImage *)jsq_defaultEditingInactiveImage;
+
+>>>>>>> Stashed changes
 @end
